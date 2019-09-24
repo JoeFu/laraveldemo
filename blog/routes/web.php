@@ -25,6 +25,11 @@ Route::get('/attendance',function(){
 //This is the IT introduction page
 Route::get('/team/{selection}','TeamController@chooseSelection');
 
+Route::get('/orchid/{language}','OrchidIndexPageController@show');
+Route::get('/orchid/products/{index}','OrchidProductsPageController@show');
+
+
+
 Route::get('/admin','UserController@index');
 
 Auth::routes();

@@ -20,7 +20,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('en');
     }
     public function index_cn()
     {
