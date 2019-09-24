@@ -12,19 +12,18 @@ use Illuminate\Routing\Router;
 |
 */
 
-//This is the home page Route
+//This is the Home page Route
 Route::get('/', 'HomeController@index');
 Route::get('/cn', 'HomeController@index_cn');
 
 //This is the attendance page Route
 
 Route::get('/attendance',function(){
-
     return view ('home');
 });
 
-
-
+//This is the IT introduction page
+Route::get('/team/{selection}','TeamController@chooseSelection');
 
 Route::get('/admin','UserController@index');
 

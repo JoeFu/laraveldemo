@@ -539,9 +539,13 @@
 
     <!-- Copyright -->
     <div class="footer bg-light text-center py-3">
-        <p class="text-muted small mb-4 mb-lg-0">&copy; 2013 - <span id="year"></span> Orchid Group All Rights Reserved
+        <p class="text-muted small mb-4 mb-lg-0">&copy; 2013 - <span id="year"></span> Orchid Wine Estate All Rights Reserved
+
             <br>
-            <a href="https://trade.orchidwine.com.au/#business">About</a> | Designed by <a href="http://orchidwine.com.au">Orchid Wine IT department</a></p>
+            <a href="https://trade.orchidwine.com.au/#business">About</a> | <a href="https://trade.orchidwine.com.au/#business">Terms & Conditions</a>
+            <br>
+            Designed by <a href="team/IT">Orchid Wine Estate IT department</a>
+        </p>
     </div>
     <script>
         document.getElementById('year').innerHTML = new Date().getFullYear() + '';
